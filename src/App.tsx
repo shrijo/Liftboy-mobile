@@ -1,6 +1,7 @@
 import { useCallback } from 'react'
 import { ReactFlowProvider } from '@xyflow/react'
-import { PatchCanvas, createModuleNode } from './components/canvas/PatchCanvas'
+import { PatchCanvas } from './components/canvas/PatchCanvas'
+import { createModuleNode } from './components/modules/moduleDefaults'
 import { usePatchStore } from './store/patchStore'
 import { useAudioResume } from './hooks/useAudioResume'
 
